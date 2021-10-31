@@ -17,10 +17,23 @@ many of which you will not find in the UK
 
 #### ______________ Notes on Dataset _____________________
 
-There are several databases available online, 
-however there is often an enoumous imbalance between classes and the number of images per class is often extremely low
+There are several mushroom image databases available online, 
+however there is often an enoumous imbalance between classes and the number of images per class is typically extremely low
 
 Additionally, many of the databases do not specify geographic distribution and hence you will not find many of the species in the UK
+
+For this database I use a web image scraping tool (https://github.com/DeliciousD/Image_scraper) 
+to retrieve hundreds of images for around 150 UK mushroom species
+
+________ further notes on dataset _____________
+
+I hope future iterations of the database will weed out poor quality of incorrectly classified images
+
+The dataset will be uploaded to kaggle
+
+I intend to fuse the dataset with others and improve the image scraping capability
+
+Additionally, the app, likely to be streamlit based, will allow users to upload images to the database
 
 
 #### _________________ Disclaimer _____________________
