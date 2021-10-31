@@ -1,0 +1,18 @@
+# Data collection
+
+Todo:
+    
+    add images from FGVCx Fungi dataset https://github.com/visipedia/fgvcx_fungi_comp
+    
+    
+    find a way of removing microscope images
+
+
+# Shroom classification
+
+Possible avenues:
+    
+    Include season for classification
+
+    Use confusion matrix to compare for likely mistakes
+    
