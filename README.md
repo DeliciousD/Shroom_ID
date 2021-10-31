@@ -7,25 +7,19 @@ A machine learning application in aid of identifying British mushroom species
 This is particularly useful for an initial guess as to what the species may be and for cross referencing with a reliable source
 
 
-#### ______________ Notes on App _____________________
+description of the app....
 
 
-There are several apps and databases available online, 
-however the tend to be very limited in the number of quality images and tend to have a huge number of classes, 
-many of which you will not find in the UK
+#### ______________ Notes on Dataset & App _____________________
 
+There are several alternate apps and databases available online, 
+however they tend to be limited in the number of quality images and have a huge number of classes, 
+many of which are not found in the UK.
 
-#### ______________ Notes on Dataset _____________________
-
-There are mushroom image databases available online, however they tend to have enoumous imbalances between classes, 
-with an extremely limited number of quality images per class
-
-Additionally, many databases and applications do not specify geographic region, hence you will not find many of the species in the UK
-
-For this database I a combination of my own images acquired while foraging and a image scraping tool (https://github.com/DeliciousD/Image_scraper) 
+I have curated this database using a combination of my own images acquired while foraging and an image scraping tool (https://github.com/DeliciousD/Image_scraper) 
 I have developed to retrieve around 400 hundred images from several search engines, of roughly 150 UK mushroom species
 
-While grabbing whatever results a search engine spits out typically would not make for a good dataset, the fact that we can specify an exact match to a mushrooms Binomial name, greatly enhances the dataset quality.
+While grabbing whatever results a search engine spits out typically would not make for a good dataset, the fact that we can specify an exact match to a mushrooms Binomial name, greatly enhances the dataset quality. I also have also glancingly reviewed much of the dataset by eye, checking for obvious misclassifications, poor quality images and the occasional random image.
 
 ________ further notes on dataset _____________
 
@@ -33,9 +27,9 @@ I hope future iterations of the database will weed out poor quality of incorrect
 
 The dataset will be uploaded to kaggle
 
-I intend to fuse the dataset with others and improve the image scraping capability
+I intend to integrate more data sources for a larger collection
 
-Additionally, the app, likely to be streamlit based, will allow users to upload images to the database
+The app, likely to be streamlit based initially, will allow users to upload images to the database
 
 
 #### _________________ Disclaimer _____________________
