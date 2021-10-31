@@ -22,8 +22,10 @@ with an extremely limited number of quality images per class
 
 Additionally, many databases and applications do not specify geographic region, hence you will not find many of the species in the UK
 
-For this database I a combination of my own images from foraging and use a web image scraping tool (https://github.com/DeliciousD/Image_scraper) 
-I have developed to retrieve hundreds of images for around 150 UK mushroom species
+For this database I a combination of my own images acquired while foraging and a image scraping tool (https://github.com/DeliciousD/Image_scraper) 
+I have developed to retrieve around 400 hundred images from several search engines, of roughly 150 UK mushroom species
+
+While grabbing whatever results a search engine spits out typically would not make for a good dataset, the fact that we can specify an exact match to a mushrooms Binomial name, greatly enhances the dataset quality.
 
 ________ further notes on dataset _____________
 
