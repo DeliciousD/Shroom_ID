@@ -4,7 +4,7 @@
 A machine learning application in aid of identifying British mushroom species
 
 
-This is particularly useful for an initial guess as to what the species may be, for cross referencing
+This is particularly useful for an initial guess as to what the species may be for cross referencing with a reliable source
 
 
 #### ______________ Notes on App _____________________
