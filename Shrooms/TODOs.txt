@@ -1,18 +1,33 @@
-# Data collection
+__________ Data collection ___________________
 
 Todo:
     
     add images from FGVCx Fungi dataset https://github.com/visipedia/fgvcx_fungi_comp
     
-    
     find a way of removing microscope images
+    
+    Add rose pie chart for visualisation
+     
+    
+    ```
+    redo single missing class
+    
+    shrooms_scientific[60] = 'Inocybe geophylla"  -"var. lilacina'
+    
+    should be
+    
+    shrooms_scientific[60] = 'Inocybe geophylla"  -"lilacina'
+    ```
+
+    possibly just merge the two varieties
 
 
-# Shroom classification
+
+___________ Shroom classification ______________
 
 Possible avenues:
     
     Include season for classification
 
-    Use confusion matrix to compare for likely mistakes
+    Utilise confusion matrix in comparing for likely mistakes
     
