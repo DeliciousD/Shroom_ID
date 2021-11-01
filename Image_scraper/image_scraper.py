@@ -61,7 +61,7 @@ class ImageScrapper():
 
         while image_count < max_links_to_fetch:
 
-            self.scroll_to_bottom()
+            self.scroll_to_bottom(wd)
 
             # get all image thumbnail results
             thumbnail_results = wd.find_elements(By.CSS_SELECTOR, self.thumbnail_selector)
@@ -76,7 +76,7 @@ class ImageScrapper():
                 # click thumbnails to retrieve image
                 try:
                     img.click()
-                    time.sleep(1)
+                    time.sleep(0.25)
                 except Exception as e:
                     print('Failed to click thumbnail')
                     continue
@@ -133,7 +133,7 @@ class ImageScrapper():
 
         self.search_term = search_term
 
-        self.target_folder = os.path.join(self.save_path, '_'.join(self.search_term.lower().split(' ')))
+        self.target_folder = os.path.join(self.save_path, '_'.join(self.search_term.lower().split(' ')).replace('"', ''))
 
         if not os.path.exists(self.target_folder):
             os.makedirs(self.target_folder)
