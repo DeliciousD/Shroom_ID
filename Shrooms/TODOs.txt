@@ -17,9 +17,18 @@ Todo:
     should be
     
     shrooms_scientific[60] = 'Inocybe geophylla"  -"lilacina'
+    
     ```
-
+    
     possibly just merge the two varieties
+    
+   
+   
+   ____ Poor datasets___
+    
+    cordyceps_militaris
+    
+    gliophorus (all)
 
 
 
@@ -31,3 +40,12 @@ Possible avenues:
 
     Utilise confusion matrix in comparing for likely mistakes
     
+    
+
+___________ App ______________
+
+Give probability of top 5, show selection of high  images for each
+
+if a poisonous mushroom appears in top 5 of predictions show several warning
+
+discuss deadly doppelganger
