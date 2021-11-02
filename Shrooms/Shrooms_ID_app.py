@@ -3,8 +3,6 @@ import numpy as np
 import tensorflow as tf
 from PIL import Image
 import pandas as pd
-
-# are we actually using this?
 # import tensorflow.keras.backend as K
 
 checkpoint_path = 'C:\\Users\\danie\\Downloads\\results\\checkpoints\\test_save\\'
@@ -14,7 +12,7 @@ def open_model():
     model = tf.keras.models.load_model(checkpoint_path)
     model.summary()
     return model
-
+ 
 st.title('Shroom ID')
              
 df = pd.read_csv('Shroom_DB.csv')
@@ -45,4 +43,6 @@ if __name__ == '__main__':
         st.image(img, caption='', use_column_width=True)
         
         st.write(df.iloc[prediction])
-        
+
+# cd .\Documents\Shroom_ID\Shrooms\
+# streamlit run Shrooms_ID_app.py
