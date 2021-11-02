@@ -5,7 +5,7 @@ from PIL import Image
 import pandas as pd
 # import tensorflow.keras.backend as K
 
-checkpoint_path = 'Shrooms/checkpoints/test_save/'
+checkpoint_path = 'Shrooms/checkpoints - Copy/test_save/'
 
 @st.cache(allow_output_mutation=True)
 def open_model():
