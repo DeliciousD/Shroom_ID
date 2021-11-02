@@ -5,7 +5,7 @@ from PIL import Image
 import pandas as pd
 # import tensorflow.keras.backend as K
 
-checkpoint_path = 'C:\\Users\\danie\\Downloads\\results\\checkpoints\\test_save\\'
+checkpoint_path = 'Shrooms/checkpoints/test_save/'
 
 @st.cache(allow_output_mutation=True)
 def open_model():
@@ -15,7 +15,7 @@ def open_model():
  
 st.title('Shroom ID')
              
-df = pd.read_csv('Shroom_DB.csv')
+df = pd.read_csv('Shrooms/Shroom_DB.csv')
 
 model = open_model()
 

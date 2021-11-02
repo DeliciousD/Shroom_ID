@@ -8,31 +8,23 @@ Todo:
     
     Add rose pie chart for visualisation
      
-    
-    ```
-    redo single missing class
-    
-    shrooms_scientific[60] = 'Inocybe geophylla"  -"var. lilacina'
-    
-    should be
-    
-    shrooms_scientific[60] = 'Inocybe geophylla"  -"lilacina'
-    
-    ```
-    
-    possibly just merge the two varieties
+     
+     
     
    
-   
-   ____ Poor datasets___
+   ____ Poor datasets____
     
     cordyceps_militaris
     
-    gliophorus (all)
-
-
+    gliophorus (all vars)
+    
+    fistulina_hepatica
+    
+    agaricus all look similar possibly just merge? (check edibility etc..)
+   
 
 ___________ Shroom classification ______________
+
 
 Possible avenues:
     
@@ -41,11 +33,27 @@ Possible avenues:
     Utilise confusion matrix in comparing for likely mistakes
     
     
-
 ___________ App ______________
 
-Give probability of top 5, show selection of high  images for each
+Give probability of top 5, show selection of high quality images for each
 
 if a poisonous mushroom appears in top 5 of predictions show several warning
 
 discuss deadly doppelganger
+
+explain how to take image, should be still in ground, including some background environment can be useful, compare jew's ear with aleuria aurantia
+
+maybe make fun, e.g congratulations you found a ...
+
+maybe add sign: 'I will not eat any mushrooms found without first consulting...'
+
+Make dataset interactive
+
+
+_____
+
+to run app
+
+cd .\Documents\Shroom_ID\Shrooms\
+
+streamlit run Shrooms_ID_app.py
