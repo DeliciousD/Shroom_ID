@@ -5,14 +5,14 @@ from PIL import Image
 import pandas as pd
 # import tensorflow.keras.backend as K
 
-checkpoint_path = 'Shrooms/checkpoints - Copy/test_save/'
+checkpoint_path = 'Shrooms/checkpoints - Copy/test_save/saved_model.pb'
 
 @st.cache(allow_output_mutation=True)
 def open_model():
     model = tf.keras.models.load_model(checkpoint_path)
     model.summary()
     return model
- 
+
 st.title('Shroom ID')
              
 df = pd.read_csv('Shrooms/Shroom_DB.csv')

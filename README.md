@@ -54,8 +54,12 @@ Information given here MUST cross reference with AT LEAST two credible reference
 NEVER consume any wild mushroom unless you are certain of what it is
 
 
-#### ________________ Why you should be in a forest right now _____________________
+#### ________________ Why you forage for mushrooms _____________________
 
 Why mushroom foraging is cool, references to books
+
+
+How to guide for beginners
+
 
 ### ________________ How to use Image_Scraper ____________________(to be its own repo)
