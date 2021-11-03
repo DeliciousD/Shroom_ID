@@ -1,6 +1,16 @@
+__________ General ___________________
+
+
+remove and improve image set, re-upload to kaggle, update csv
+
+
+Add pretty images to readme files
+
+check deathcap merge, do both seasons edibility etc match
+
+
 __________ Data collection ___________________
 
-Todo:
     
     add images from FGVCx Fungi dataset https://github.com/visipedia/fgvcx_fungi_comp
     
@@ -9,46 +19,47 @@ Todo:
     Add rose pie chart for visualisation
      
      
-     
-    
    
    ____ Poor datasets____
     
-    cordyceps_militaris
+    cordyceps_militaris ( should remove)
     
-    gliophorus (all vars)
+    could merge gliophorus (4 vars, just colour diff)
     
-    fistulina_hepatica
+    agaricus (11 vars) all look similar possibly merge (all but yellow stainer are edibility)
     
-    agaricus all look similar possibly just merge? (check edibility etc..)
+    merege(Cantherellus tubaeformis Cantharellus cibarius) chanterrele and winter chanterrele
+    
+    removed false chanterrle (though is poisonous!)
+   
    
 
 ___________ Shroom classification ______________
 
-
-Possible avenues:
     
-    Include season for classification
-
     Utilise confusion matrix in comparing for likely mistakes
+
+    return top 5
     
     
 ___________ App ______________
 
-Give probability of top 5, show selection of high quality images for each
+
+Show selection of high quality images for each
 
 if a poisonous mushroom appears in top 5 of predictions show several warning
 
-discuss deadly doppelganger
+blog side:
 
-explain how to take image, should be still in ground, including some background environment can be useful, compare jew's ear with aleuria aurantia
+    discuss deadly doppelganger
 
-maybe make fun, e.g congratulations you found a ...
+    explain how to take image, should be still in ground, including some background environment can be useful, compare jew's ear with aleuria aurantia
 
-maybe add sign: 'I will not eat any mushrooms found without first consulting...'
+    maybe make fun, e.g congratulations you found a ...
+
+    maybe add sign: 'I will not eat any mushrooms found without first consulting...'
 
 Make dataset interactive
-
 
 _____
 
