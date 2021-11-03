@@ -11,9 +11,9 @@ def open_model():
     model.summary()
     return model
 
-st.title('Shroom ID')
+st.title('./Shrooms/Shroom ID')
              
-df = pd.read_csv('Shroom_DB.csv')
+df = pd.read_csv('./Shroom_DB.csv')
 
 model = open_model()
 
